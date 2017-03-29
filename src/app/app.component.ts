@@ -26,7 +26,7 @@ export class MyApp {
         Splashscreen.hide();
       }, function (error) {
         //we don't have the user data so we will ask him to log in
-        env.nav.push(LoginPage);
+        //env.nav.push(LoginPage);    Lo puse puse para que no pusiera 2 veces el login
         Splashscreen.hide();
       });
 
